@@ -9,10 +9,10 @@ $(document).ready(function() {
 
 		success : function(data) {
 			$('#bitcoin_block_number').append(data.blocks)
-			$('#difficulty').append(data.blocks)
-			$('#protocolversion').append(data.blocks)
-			$('#connections').append(data.blocks)
-			$('#timeoffset').append(data.blocks)
+			$('#difficulty').append(data.difficulty)
+			$('#protocolversion').append(data.protocolversion)
+			$('#connections').append(data.connections)
+			$('#timeoffset').append(data.timeoffset)
 			
 		},
 
